@@ -1,0 +1,47 @@
+@CHARSET "ISO-8859-1";
+
+/* Remove the navbar's default rounded borders and increase the bottom margin */
+.navbar {
+	margin-bottom: 0px;
+	border-radius: 0;
+}
+
+/* Remove the jumbotron's default bottom margin */
+.jumbotron {
+	margin-bottom: 0px;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+	width: 100%;
+	background: #f2f2f2;
+	z-index: 4000;
+	clear: both;
+	line-height: 1.7em;
+	padding: 30px 0 10px;
+	min-height: 90px;
+	font-size: 12px;
+	border-top: #ddd 1px solid;
+	height: 110px;
+}
+
+#avatar {
+	height: 60px;
+	width: 60px;
+}
+
+#description {
+	width: 400px;
+	height: 150px;
+}
+
+.avt {
+	margin-top: 50px;
+}
+
+#browseBtn {
+	background-color: #000000b3;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+}

@@ -1,0 +1,148 @@
+@CHARSET "ISO-8859-1";
+.navbar {
+	margin-bottom: 0px;
+	border-radius: 0;
+}
+
+/* Remove the jumbotron's default bottom margin */
+.jumbotron {
+	margin-bottom: 0px;
+}
+
+footer {
+	width: 100%;
+	background: #f2f2f2;
+	z-index: 4000;
+	clear: both;
+	line-height: 1.7em;
+	padding: 30px 0 10px;
+	min-height: 90px;
+	font-size: 12px;
+	border-top: #ddd 1px solid;
+	height: 110px;
+}
+
+#cart_button {
+	margin-top: 20px;
+	margin-left: 80px;
+	cursor: pointer;
+}
+
+#cart_button img {
+	width: 40px;
+	height: 40px;
+}
+
+#cart_button input[type="button"] {
+	background: none;
+	border: none;
+	background-color: gray;
+	border-radius: 100%;
+	height: 30px;
+	width: 30px;
+	margin-top: 0px;
+	color: red;
+	font-size: 17px;
+	cursor: pointer;
+}
+
+#mycart {
+	display: none;
+	background-color: white;
+	width: 800px;
+	margin-left: 100px;
+}
+
+#mycart .cart_items {
+	border-bottom: 1px dashed silver;
+	padding: 20px;
+	padding-left: 10px;
+}
+
+#mycart .cart_items img {
+	width: 70px;
+	height: 50px;
+	float: left;
+}
+
+#mycart .cart_items p {
+	margin: 0px;
+	font-size: 17px;
+	color: darkblue;
+}
+
+#item_div {
+	float: left;
+	margin-left: 60px;
+}
+
+.items {
+	padding: 20px;
+	background-color: white;
+	width: 250px;
+	height: 350px;
+	margin-top: 20px;
+	box-shadow: 0px 0px 10px 0px #A4A4A4;
+	box-sizing: border-box;
+	float: left;
+	margin: 20px;
+	position: relative;
+}
+
+.items:hover input[type="button"] {
+	display: block;
+}
+
+.items input[type="button"] {
+	display: none;
+	background: none;
+	background-color: red;
+	width: 200px;
+	height: 50px;
+	border: none;
+	font-size: 20px;
+	color: white;
+	position: absolute;
+	top: 150px;
+	left: 25px;
+	cursor: pointer;
+}
+
+.items img {
+	width: 200px;
+	height: 200px;
+}
+
+.items p {
+	color: black;
+}
+
+.center {
+	text-align: center;
+}
+
+.pagination {
+	display: center;
+	font-size: 150%;
+}
+
+.pagination a {
+	color: black;
+	float: left;
+	padding: 8px 16px;
+	text-decoration: none;
+	transition: background-color .3s;
+	border: 1px solid #ddd;
+	margin: 0 4px;
+}
+
+.pagination a.active {
+	background-color: #4CAF50;
+	color: white;
+	border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not (.active ) {
+	background-color: #ddd;
+}
+
